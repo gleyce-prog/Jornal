@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(95, 5, 5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+hr{
+    border-color: white;
+}
+
+.inicio {
+    color: white;
+    font-family: fantasy;
+    font-size: 250%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 16s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(2px) translateX(1px) ;
+    animation: tentativa 10s  0s infinite ;
+}
+
+@keyframes tentativa {
+    0%{color: white;}
+    25%{color: rgb(160, 159, 159);}
+    50%{color: gray;}
+    100%{color: rgb(83, 83, 83);}
+}
+
+li{
+    font-family: monospace;
+    font-size: 180%;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+.informacoes{
+    text-align: right;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+iframe{
+    float: left;
+}
+
+.Futebol:link{
+    color: white;
+}
+
+.Futebol:visited{
+    color: black;
+}
+
+.Futebol , .Cinema , .Vilarinho{
+    text-align: center;
+}
+
+img{
+    float: unset;
+}
+
+footer{
+    text-align: center;
+    padding: 8px;
+    padding-top: 15%;
+    border: 7px;
+    margin: 4px;
+}
